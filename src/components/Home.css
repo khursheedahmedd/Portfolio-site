@@ -1,0 +1,9 @@
+/* styles.css */
+body{
+    background-image: url("/public/pic.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    backdrop-filter: 5px;
+    margin: 0;
+    padding: 0;
+  }

@@ -26,6 +26,7 @@ function App() {
   const fonts = 'arial-bold';
   return (
     <>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <div style={{ styles, }}>
         <Navbar changeActiveTab={changeActiveTab} />
         <main>

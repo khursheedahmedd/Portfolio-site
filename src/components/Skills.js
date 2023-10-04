@@ -4,7 +4,7 @@ export default function Skills(props) {
 
     return (
         <>
-            <div className="container my-5 books-container" style={{ fontFamily: props.font }}>
+            <div className="container my-5 books-container" style={{ fontFamily: props.font, color: props.themeColor }}>
                 <h2 className="text-center">Programming Languages</h2>
                 <div className="row justify-content">
                     {/* <div className="col-md-4">
@@ -15,76 +15,63 @@ export default function Skills(props) {
                         <div className="accordion-item">
                             <h2 className="accordion-header" >
                                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"  >
-                                    <b style={{ color: props.themeColor }}> C</b>
+                                    <b> C</b>
                                 </button>
                             </h2>
                             <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    I have a strong foundation in C programming, which I initially learned during my college studies and continued to develop my skills through various projects. During my academic journey, I completed numerous projects in C, gaining valuable experience in problem-solving and algorithmic thinking.
-
-                                    My dedication to mastering data structures and algorithms in C has further enriched my understanding of the language. This knowledge not only allows me to write efficient and optimized code but also enables me to tackle complex software engineering challenges with confidence.
-
-                                    With my expertise in C, I'm well-equipped to design and implement robust and efficient solutions, making it one of my core programming languages in my toolkit.
+                                    <pre> I did C language in my college because that language included in my acadamic syllabus. I have a string grip on basics of this language because that<br></br> was my first programming language.</pre>
                                 </div>
                             </div>
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <b style={{ color: props.themeColor }}> C#</b>
+                                    <b> C#</b>
                                 </button>
                             </h2>
                             <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    I've gained proficiency in C# primarily through my experience with game development in Unity. Working with Unity, I've had the opportunity to harness the power of C# to create interactive and immersive experiences. I've written scripts to control game mechanics, character behavior, user interfaces, and more.
+                                    <pre>I've gained proficiency in C# primarily through my experience with <b>game development in Unity.</b> Working with Unity, I've had the opportunity to harness<br></br>the power of C# to create interactive and immersive experiences. I've written scripts to control game mechanics, character behavior, user interfaces,<br></br>and more.</pre>
                                 </div>
                             </div>
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <b style={{ color: props.themeColor }}>C++</b>
+                                    <b>C++</b>
                                 </button>
                             </h2>
                             <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    My journey with C++ began during my university studies, where I gained a solid foundation in the language's fundamentals. In the initial stages, I learned the basics of C++, and in the subsequent semester, I delved deeply into Object-Oriented Programming (OOP) principles using C++. This allowed me to understand the importance of modularity and encapsulation in software design.
-
-                                    One of the highlights of my experience with C++ was the development of various projects, including systems like bank management, library management, and Lahore Zoo information management. These projects honed my skills in applying OOP concepts to real-world scenarios, enhancing my problem-solving abilities.
-
-                                    During the summer break, I embarked on a journey to explore data structures and algorithms in C++. This knowledge opened the doors to competitive programming challenges on various online platforms. I honed my ability to solve complex problems efficiently and optimize code for better performance.
-
-                                    C++ has become a versatile tool in my programming toolkit, enabling me to build efficient, modular, and high-performance software solutions. Whether it's designing intricate data structures or tackling algorithmic challenges, C++ remains an integral part of my programming expertise
-
+                                    <pre>Initially I have learned C++ basics  from various online resources, than I studied <b>OOP</b> and <b>Data Structure and Algorithms</b> from my university while<br></br>doing BS Software Engineering. After that I practice DSA problems on different online platform like, leetCode, hackerRank and coderByte. Now I have<br></br>strong grip on <b>Data Structure and Algorithms.</b>
+                                    </pre>
                                 </div>
                             </div>
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    <b style={{ color: props.themeColor }}> JavaScript</b>
+                                    <b> JavaScript</b>
                                 </button>
                             </h2>
                             <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    My journey with JavaScript has been focused on both web and mobile application development, utilizing the power of React.js and React Native. JavaScript, along with React.js and React Native, empowers me to create versatile and visually appealing applications, whether they're destined for the web or mobile devices. It's a language and technology stack that enables me to bring my development projects to life in a user-friendly and efficient manner. </div>
+                                    <pre>I have learned Javascript from different online resources and make various projects on it. After that I impliment Javascript into HTML and CSS and<br></br>make websites. Javascipt <b>Document Object Manipulation</b> help me alot to make optimal solutions while doing web development. After that I impliment<br></br>Javascript into react and make dynamic web-applications.</pre>
+                                </div>
                             </div>
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    <b style={{ color: props.themeColor }}>Java</b>
+                                    <b>Java</b>
                                 </button>
                             </h2>
                             <div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    I have a strong background in Java programming, which I have honed through a combination of formal education and practical experience. I'm well-versed in the Java programming language, having learned its syntax, core features, and best practices.
-
-                                    One of my significant areas of expertise is data structures and algorithms in Java. I have dedicated time to deeply understanding and implementing various data structures such as arrays, linked lists, stacks, queues, trees, graphs, and hash tables. I've also mastered algorithm design techniques, including sorting, searching, dynamic programming, and graph algorithms.
-
-                                    My commitment to this field has driven me to participate in competitive programming challenges on different online platforms, where I've successfully solved complex problems efficiently and optimally. This practical experience has solidified my understanding of algorithmic complexities and performance analysis.
-
-                                    Java, coupled with my proficiency in data structures and algorithms, empowers me to design and develop efficient and scalable software solutions. Whether it's solving intricate coding challenges or building robust applications, Java remains a cornerstone of my programming toolkit.
+                                    <pre>
+                                        I also learned Java basics and OOP in Java.
+                                    </pre>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +81,7 @@ export default function Skills(props) {
                 </div> */}
             </div>
 
-            <div className="container my-5 books-container" style={{ fontFamily: props.font }}>
+            <div className="container my-5 books-container" style={{ fontFamily: props.font, color: props.themeColor }}>
                 <h2 className="text-center">Frameworks</h2>
                 <div className="row justify-content">
                     {/* <div className="col-md-4">
@@ -105,7 +92,7 @@ export default function Skills(props) {
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                                    <b style={{ color: props.themeColor }}> React.js</b>
+                                    <b> React.js</b>
                                 </button>
                             </h2>
                             <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordion2">
@@ -113,7 +100,7 @@ export default function Skills(props) {
                                     I've recently acquired proficiency in React.js, a popular JavaScript library for building interactive user interfaces. I've applied my knowledge to develop several noteworthy projects:
                                     <ul>
                                         <li><b>TextUtils:</b> A versatile text manipulation tool that enables users to perform various operations on text, enhancing readability and usability.</li>
-                                        <li><b>Doctor's site (<a href="mercpk.com">mercpk.com</a>): </b>A comprehensive personal website for a doctor, featuring appointment booking, a medical book store, and a platform for posting research articles and blogs.
+                                        <li><b>Portfolio site: </b>A comprehensive personal website for a doctor, featuring appointment booking, a medical book store, and a platform for posting research articles and blogs.
                                         </li>
                                         <li><b>CircNews:</b>A dynamic website that provides real-time cricket news, player and team rankings, statistics, and updates on international tournaments using API.</li>
                                     </ul>
@@ -137,7 +124,7 @@ export default function Skills(props) {
                 {/* </div>
                 </div> */}
             </div>
-            <div className="container my-5 books-container" style={{ fontFamily: props.font }}>
+            <div className="container my-5 books-container" style={{ fontFamily: props.font, color: props.themeColor }}>
                 <h2 className="text-center">Tools</h2>
                 <div className="row justify-content-center">
                     <div className="col-md-4">
